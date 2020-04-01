@@ -46,7 +46,7 @@ development state.
 
 Tests will be carried out after the addition or completion of each component and functionality. We will be using the AirTest Platform to design and execute our tests.
 
-User Interface:
+# User Interface:
 
  The user interface must be adaptive to fit many sizes of screens, and the UI elements must reflect the changes in character stats effects.
 
