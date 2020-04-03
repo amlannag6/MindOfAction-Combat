@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour {
 
     public float speed = 5f;
     private float gravity = 20f;
-
+    public int level = 3;
     public float jump_Force = 10f;
     private float vertical_Velocity;
 
@@ -53,6 +53,23 @@ public class PlayerMovement : MonoBehaviour {
         if(character_Controller.isGrounded && Input.GetKeyDown(KeyCode.Space)) {
             vertical_Velocity = jump_Force;
         }
+
+    }
+
+    public void SavePlayer()
+    {
+        SaveSystem.SavePlayer(this);
+    }
+    public void LoadPlayer()
+    {
+        PlayerData data = SaveSystem.LoadPlayer();
+        level = data.level;
+
+        Vector3 position;
+        position.x = data.position[0];
+        position.y = data.position[1];
+        position.z = data.position[2];
+        transform.position = position;
 
     }
 

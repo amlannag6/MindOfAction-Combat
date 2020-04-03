@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class HealthScript : MonoBehaviour
 {
@@ -19,6 +20,9 @@ public class HealthScript : MonoBehaviour
     private EnemyAudio enemyAudio;
 
     private PlayerStats player_Stats;
+
+   
+
 
     void Awake()
     {
@@ -39,7 +43,9 @@ public class HealthScript : MonoBehaviour
         }
 
     }
-
+ 
+    
+ 
     public void ApplyDamage(float damage)
     {
 
@@ -144,11 +150,21 @@ public class HealthScript : MonoBehaviour
 
     void RestartGame()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("SampleScene");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("gameover");
     }
 
-   
-    
+   public void ReloadGame()
+    {
+        SceneManager.LoadScene("lvl1");
+    }
+
+    public void ExitThisGame()
+    {
+        UnityEngine.Debug.LogError("Exit Game");
+        Application.Quit();
+    }
+
+
 
     void TurnOffGameObject()
     {
