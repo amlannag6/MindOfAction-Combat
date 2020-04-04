@@ -155,7 +155,7 @@ public class HealthScript : MonoBehaviour
 
    public void ReloadGame()
     {
-        SceneManager.LoadScene("lvl1");
+        SceneManager.LoadScene("lvl0");
     }
 
     public void ExitThisGame()
