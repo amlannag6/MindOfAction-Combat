@@ -20,9 +20,7 @@ public class HealthScript : MonoBehaviour
     private EnemyAudio enemyAudio;
 
     private PlayerStats player_Stats;
-
-   
-
+    
 
     void Awake()
     {
@@ -107,6 +105,7 @@ public class HealthScript : MonoBehaviour
             enemy_Controller.enabled = false;
             UIManager.instance.killCount++;
             UIManager.instance.UpdateKillCounterUI();
+            
 
 
             enemy_Anim.Dead();
@@ -160,6 +159,13 @@ public class HealthScript : MonoBehaviour
     {
         SceneManager.LoadScene("lvl0");
     }
+
+    public void RetryGame()
+    {
+        SceneManager.LoadScene("lvl1");
+    }
+
+
 
     public void ExitThisGame()
     {

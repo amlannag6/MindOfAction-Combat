@@ -7,7 +7,7 @@ public class SceenManagement : MonoBehaviour
   
     public void play()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("lvl1");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("instru");
     }
     public void multiplayer()
     {

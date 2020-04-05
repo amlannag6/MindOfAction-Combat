@@ -16,7 +16,7 @@ public class AudioManager : MonoBehaviour
 
     }
 
-    public void clickSound()
+    public void ClickSound()
     {
         myFX.PlayOneShot(clickFx);
     }

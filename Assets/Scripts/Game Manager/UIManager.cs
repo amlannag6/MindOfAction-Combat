@@ -10,6 +10,8 @@ public class UIManager : MonoBehaviour
     TextMeshProUGUI kill_counter;
     [HideInInspector]
     public int killCount;
+    
+
 
     private void Awake()
     {
@@ -26,8 +28,9 @@ public class UIManager : MonoBehaviour
     public void UpdateKillCounterUI()
     {
         kill_counter.text = killCount.ToString();
-        
-    }
 
+         PlayerPrefs.SetInt("HighScore", killCount);
+    }
+   
 
 }
