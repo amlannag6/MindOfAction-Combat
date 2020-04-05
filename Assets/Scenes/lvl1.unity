@@ -431,7 +431,7 @@ GameObject:
   - component: {fileID: 251116009}
   - component: {fileID: 251116008}
   m_Layer: 0
-  m_Name: Environment_Sound
+  m_Name: Environment Sound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2161,10 +2161,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1844924420412874, guid: 0018e13b46ab84a638da2961b5c3c295, type: 3}
-      propertyPath: m_Name
-      value: Look_Root
-      objectReference: {fileID: 0}
     - target: {fileID: 4331500397158274, guid: 0018e13b46ab84a638da2961b5c3c295, type: 3}
       propertyPath: m_LocalPosition.x
       value: 140.64
@@ -3308,7 +3304,7 @@ GameObject:
   - component: {fileID: 1970020103}
   - component: {fileID: 1970020102}
   m_Layer: 5
-  m_Name: Crosshair_Canvas
+  m_Name: Crosshair Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
