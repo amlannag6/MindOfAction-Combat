@@ -431,7 +431,7 @@ GameObject:
   - component: {fileID: 251116009}
   - component: {fileID: 251116008}
   m_Layer: 0
-  m_Name: Environment Sound
+  m_Name: Environment_Sound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1367,7 +1367,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 1, b: 0.041554213, a: 1}
+  m_Color: {r: 0, g: 1, b: 0.043137312, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1570,7 +1570,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &886522581
 GameObject:
@@ -2161,6 +2161,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1844924420412874, guid: 0018e13b46ab84a638da2961b5c3c295, type: 3}
+      propertyPath: m_Name
+      value: Look_Root
+      objectReference: {fileID: 0}
     - target: {fileID: 4331500397158274, guid: 0018e13b46ab84a638da2961b5c3c295, type: 3}
       propertyPath: m_LocalPosition.x
       value: 140.64
@@ -2191,7 +2195,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4331500397158274, guid: 0018e13b46ab84a638da2961b5c3c295, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114259834350032976, guid: 0018e13b46ab84a638da2961b5c3c295,
         type: 3}
@@ -2208,6 +2212,11 @@ PrefabInstance:
       propertyPath: weapons.Array.size
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 114289509015557228, guid: 0018e13b46ab84a638da2961b5c3c295,
+        type: 3}
+      propertyPath: damage
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 114401672018666808, guid: 0018e13b46ab84a638da2961b5c3c295,
         type: 3}
       propertyPath: is_Boar
@@ -2216,7 +2225,7 @@ PrefabInstance:
     - target: {fileID: 114401672018666808, guid: 0018e13b46ab84a638da2961b5c3c295,
         type: 3}
       propertyPath: health
-      value: 100
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 114401672018666808, guid: 0018e13b46ab84a638da2961b5c3c295,
         type: 3}
@@ -2323,7 +2332,7 @@ RectTransform:
   - {fileID: 659651200}
   - {fileID: 689179754}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2692,7 +2701,7 @@ GameObject:
   - component: {fileID: 1377604428}
   - component: {fileID: 1377604429}
   m_Layer: 0
-  m_Name: 'Enemy '
+  m_Name: Spawn_point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3299,7 +3308,7 @@ GameObject:
   - component: {fileID: 1970020103}
   - component: {fileID: 1970020102}
   m_Layer: 5
-  m_Name: Crosshair Canvas
+  m_Name: Crosshair_Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3378,7 +3387,7 @@ RectTransform:
   m_Children:
   - {fileID: 1461138635}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}

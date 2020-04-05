@@ -403,7 +403,7 @@ GameObject:
   - component: {fileID: 114378608325154776}
   - component: {fileID: 114643583927529820}
   m_Layer: 10
-  m_Name: Cannibal
+  m_Name: Zombie
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -525,7 +525,7 @@ MonoBehaviour:
   walk_Speed: 0.5
   run_Speed: 4
   chase_Distance: 20
-  attack_Distance: 2
+  attack_Distance: 5
   chase_After_Attack_Distance: 2
   patrol_Radius_Min: 20
   patrol_Radius_Max: 60
