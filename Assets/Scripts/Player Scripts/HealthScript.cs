@@ -105,6 +105,9 @@ public class HealthScript : MonoBehaviour
             navAgent.velocity = Vector3.zero;
             navAgent.isStopped = true;
             enemy_Controller.enabled = false;
+            UIManager.instance.killCount++;
+            UIManager.instance.UpdateKillCounterUI();
+
 
             enemy_Anim.Dead();
 
