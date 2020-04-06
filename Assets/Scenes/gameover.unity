@@ -1018,9 +1018,9 @@ MonoBehaviour:
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
   m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
+  m_InputActionsPerSecond: 15
   m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
+  m_ForceModuleActive: 1
 --- !u!114 &1150607688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1035,7 +1035,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
-  m_DragThreshold: 10
+  m_DragThreshold: 20
 --- !u!4 &1150607689
 Transform:
   m_ObjectHideFlags: 0
