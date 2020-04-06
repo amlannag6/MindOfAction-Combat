@@ -2222,7 +2222,7 @@ PrefabInstance:
     - target: {fileID: 114401672018666808, guid: 0018e13b46ab84a638da2961b5c3c295,
         type: 3}
       propertyPath: health
-      value: 100
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 114401672018666808, guid: 0018e13b46ab84a638da2961b5c3c295,
         type: 3}
@@ -2379,7 +2379,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiText: {fileID: 689179752}
-  mainTimer: 200
+  mainTimer: 300
 --- !u!1 &1151220666
 GameObject:
   m_ObjectHideFlags: 0
